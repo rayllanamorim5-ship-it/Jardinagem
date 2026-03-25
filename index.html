@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardinagem Farias - Paisagismo e Manutenção Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-logo">
+            <h1 class="logo">Jardinagem Farias</h1>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+<video autoplay muted loop playsinline class="hero-video" poster="assets/imagens/hero-poster.jpg">
+                <source src="assets/video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1 data-reveal>Jardinagem Farias</h1>
+                <p data-reveal>Paisagismo e manutenção premium para seu espaço</p>
+                <a href="#contact" class="cta-button">Solicite Orçamento</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 data-reveal>Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-reveal>
+                        <img src="assets/imagens/servico1.jpg" alt="Manutenção de Jardins" class="card-image">
+                        <div class="card-content">
+                            <h3>Manutenção de Jardins</h3>
+                            <p>Cuidado completo com seu jardim, podas e adubação profissional.</p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-reveal>
+                        <img src="assets/imagens/servico2.jpg" alt="Paisagismo" class="card-image">
+                        <div class="card-content">
+                            <h3>Paisagismo</h3>
+                            <p>Projetos exclusivos de paisagismo para residências e empresas.</p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-reveal>
+                        <img src="assets/imagens/servico3.jpg" alt="Corte de Grama" class="card-image">
+                        <div class="card-content">
+                            <h3>Corte de Grama</h3>
+                            <p>Corte profissional com equipamentos de ponta, sempre impecável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text" data-reveal>
+                        <h2>Sobre a Jardinagem Farias</h2>
+                        <p>Transformamos espaços em jardins dos sonhos. Nossa equipe é especializada em paisagismo premium e manutenção impecável.</p>
+                        <p>Utilizamos técnicas modernas e materiais de alta qualidade para garantir resultados profissionais e duradouros.</p>
+                    </div>
+                        <img src="assets/imagens/about.jpg" alt="Sobre Jardinagem Farias" class="about-image" data-reveal>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 data-reveal>Entre em Contato</h2>
+                <form id="contact-form" class="contact-form" data-reveal>
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="(66) 99999-9999" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="endereco" placeholder="Seu endereço completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="horario" placeholder="Ex: Segunda a sexta, 8h-18h" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="servico" placeholder="Descreva o serviço desejado..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar para WhatsApp</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <p>&copy; 2024 Jardinagem Farias. Todos os direitos reservados.</p>
+                <p>WhatsApp: <a href="https://wa.me/5566999341695">+55 (66) 99934-1695</a></p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
