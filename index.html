@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jardinagem Farias</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <img src="assets/logo.png" alt="Logo">
+  <nav>
+    <a href="#">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <video autoplay muted loop src="assets/video.mp4"></video>
+
+  <div class="hero-content">
+    <h1>Jardinagem Farias</h1>
+    <p>Cultivando beleza, cuidando da vida</p>
+    <button onclick="scrollToForm()">Solicitar Orçamento</button>
+  </div>
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+
+  <div class="services">
+    <div class="card">
+      <img src="assets/imagens/servico1.jpg">
+      <h3>Manutenção de Jardins</h3>
+    </div>
+
+    <div class="card">
+      <img src="assets/imagens/servico2.jpg">
+      <h3>Paisagismo</h3>
+    </div>
+
+    <div class="card">
+      <img src="assets/imagens/servico3.jpg">
+      <h3>Corte de Grama</h3>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Solicitar Visita</h2>
+
+  <form onsubmit="enviarWhats(event)">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="text" id="telefone" placeholder="Telefone" required>
+    <input type="text" id="endereco" placeholder="Endereço" required>
+    <input type="text" id="horario" placeholder="Horário disponível" required>
+    <textarea id="descricao" placeholder="Descreva o serviço"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>Jardinagem Farias • Atendimento via WhatsApp</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5566999341695" target="_blank">💬</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
